@@ -1,0 +1,22 @@
+Compiler and Interpreter
+    ลำดับการทำงานของทั้ง 2 อย่าง
+        1. check error      ตรวจสอบข้อผิดพลาดของชุดคำสั่ง
+        2. machine code     แปรงชุดคำสั่ง high-level เป็นชุดคำสั่ง low-level
+        3. execution        ดำเนินการชุดคำสั่ง low-level ของโปรแกรม เพื่อสั่งให้ cpu ทำงาน
+    
+    Compiler
+        เป็นการแปรงจาก high-level เป็น low-level โดยจะทำการแปรงชุดคำสั่งทั้งหมดเพียงครั้งเดียว 
+        และสามารถทำ execute file ไปใช้ได้ทันที
+        และเมื่อเราต้องการจะรันโปรแกรมอีกครั้ง เราสามารถนำ execute file ไปรันใหม่ได้ทันที โดยไม่ต้องใช้ Compiler อีก
+
+            [main.cpp] --<compile>--> [main.exe (execute file)]
+
+    Interpreter
+        จะเป็นการแปรงชุดคำสั่งทีละบรรทัด และสั่งให้ cpu ทำงานทันที จะไม่มีการสร้าง execute file ขึ้นมา
+        เมื่อต้องการจะรันโปรแกรมใหม่ จะต้องให้ Interpreter มาแปรงใหม่ทุกครั้ง
+
+            บรรทัดที่ 1 [code] --<compile>--> [execution (สั่งให้ cpu ทำงาน)]
+            บรรทัดที่ 2 [code] --<compile>--> [execution (สั่งให้ cpu ทำงาน)]
+
+    **  Compiler จะทำงานได้เร็วกว่า Interpreter เพราะ Compiler จะแปรงแค่รูปเดียวและสามารถสั่งงาน cpu ได้โดยตรงทันทีโดยไม่ต้องใช้ Compiler
+        แต่ Interpreter จะต้องใช้การแปรงใหม่ทุกครั้งที่จะทำงาน
