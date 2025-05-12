@@ -1,0 +1,36 @@
+Step for Program Development and Execution
+
+    1. Editing
+    2. Compiling
+    3. Linking Library
+    4. Loading
+    5. Execution
+
+    Editing
+        หมายถึง ขั้นตอนการเขียนโปรแกรม
+
+    Compiling
+        หมายถึง การแปลงชุุดคำสั่งที่เราเขียนไปเป็นภาษาคอมพิวเตอร์
+        [c++ code] ----> [machine code]
+
+    Linking Library
+        หมายถึง การรวมรวมชุดคำสั่งจาก library ที่เราดึงมาใช้ (#include) ซึ่งจะเป็น header file
+        โดยมันถูกดึงมาใส่ไว้ใน Execution file ของเรา
+
+    Loading
+        หมายถึง การนำโปรแกรมที่อยู่ในรูปแบบ Execution file โหลดใส่ main memory
+        โดย main memory จะถูกแบ่งออกเป็น 3 ส่วน คือ 
+            1. stack            (จัดเก็บตัวแปรที่อยู่ในระบบทั้งหมด เช่น int number = 10)
+            2. heap             (dynamic memory allowcation)
+            3. code section     (จัดเก็บ machine code ทั้งหมด)
+
+    Execution
+
+    โดยขั้นตอนทั้งหมดมักจะรวมอยู่ในที่ ๆ เดียวกัน เรียกว่า IDE (Intregated Development Environment)
+    โดย IDE สำหรับ c++ คือ 
+        1. Turbo c++
+        2. dev-c++
+        3. xcode
+        4. codeblock
+        5. eclipse
+        6. visual studio
