@@ -1,9 +1,0 @@
-Algorithm
-    Algorithm
-        เป็นขั้นตอนวิธีในการแก้ปัญหา
-
-        [Algorithm] ----> [Program]
-
-    Psuedocode
-
-    Pragram
