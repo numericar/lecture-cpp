@@ -143,6 +143,7 @@
     <Text Include="..\..\lectures\002_program_developments\04_step_program_development.txt" />
     <Text Include="..\..\lectures\005_basics\001_skeleton.txt" />
     <Text Include="..\..\lectures\005_basics\002_how_to_write_program.txt" />
+    <Text Include="003_data_type.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
