@@ -1,0 +1,41 @@
+Programming paradigm and Methodologies
+    
+    Programming Paradigm
+        หมายถึง รูปแบบการเขียนโปรแกรม โดยจะมี 4 รูปแบบ คือ 
+            1. Monolithic Programming 
+            2. Modular / Procedural
+            3. Object-Oriented
+            4. Aspect-Oriented / Component Assembly
+        
+        Monolithic Programming
+            เป็นโปรแกรมที่ชุดคำสั่งทั้งหมด จะอยู่เป็นชิ้นเดียวกัน เช่น อยู่เป็นไฟล์เดียวกัน (รวมกันทั้ง data และ instruction) และอยู่ใน main เดียวกัน
+            โดยภาษาที่ใช้รูปแบบนี้คือ basic
+
+            int main() {
+                print("Hello World");
+                print("Hello World");
+
+                return 0;
+            }
+        
+        Modular / Procedural
+            เหมือนกับ Monolithic แต่จะมีการแบ่ง function การทำงานอย่างชัดเจน (แต่ทุก function อยู่ในไฟล์เดียวกัน)
+            ทำให้เมื่อมีการต้องใช้ฟังก์ชันเดิมใหม่ ก็เพียงแค่เรียกชื่อ function ไม่ต้องเขียนชุดคำสั่งนั้นใหม่แล้ว
+
+            void a() {
+                print("Hello World");
+            }
+
+            void b() {
+                print("Hello World");
+            }
+
+            int main() {
+                a();
+                b();
+
+                return 0;
+            }
+
+        Object-Oriented
+            มีการแบ่งกลุ่มของชุดคำสั่งชัดเจน โดยแต่ละกลุ่มจะใช้สิ่งที่เรียกว่า class ในการแยก

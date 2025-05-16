@@ -1,0 +1,5 @@
+How to write a program
+    ขั้นตอนการพัฒนาโปรแกรมอย่างง่าย
+        1. input
+        2. process
+        3. output
