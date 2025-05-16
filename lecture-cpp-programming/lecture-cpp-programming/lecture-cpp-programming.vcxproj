@@ -144,6 +144,8 @@
     <Text Include="..\..\lectures\005_basics\001_skeleton.txt" />
     <Text Include="..\..\lectures\005_basics\002_how_to_write_program.txt" />
     <Text Include="003_data_type.txt" />
+    <Text Include="004_variable.txt" />
+    <Text Include="005_operabor_expression.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

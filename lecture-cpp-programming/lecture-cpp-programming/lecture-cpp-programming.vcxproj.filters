@@ -69,6 +69,12 @@
     <Text Include="003_data_type.txt">
       <Filter>lectures\005_basics</Filter>
     </Text>
+    <Text Include="004_variable.txt">
+      <Filter>lectures\005_basics</Filter>
+    </Text>
+    <Text Include="005_operabor_expression.txt">
+      <Filter>lectures\005_basics</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="001_first_program.cpp">
