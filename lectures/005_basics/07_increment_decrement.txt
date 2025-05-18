@@ -1,0 +1,16 @@
+Increment and Decrement
+    Increment 
+        เป็นการเพิ่มค่าให้กับข้อมูลเข้าไป 1 (n = n + 1) โดยประกอบด้วย
+            1. pre increment (n++) 
+            2. post increment (++n)
+
+    Decrement 
+        เป็นการนำค่ามาลบออก 1 (n = n - 1) โดยประกอบด้วย
+            1. pre decrement (n--)
+            2. post decrement (--n)
+
+    ความแตกต่างของ pre และ post
+        pre (n++, n--)
+            จะทำการส่งคืนค่า n ปัจจุบันก่อน แล้วค่อยทำการ +1/-1
+        post (++n, --n)
+            จะทำการ +1/-1 ก่อน แล้วค่อยส่งคืน n ปัจจุบัน
