@@ -1,0 +1,62 @@
+Enum and Typedef
+    Enum 
+        จะย่อมาจาก enumeration เป็นชนิดข้อมูลพิเศษที่ใช้กำหนดค่าคงที่ที่มีชื่อ โดยจะใช้เมื่อต้องการแทนค่าจำนวนเต็ม
+        เป็นค่าที่มีความหมาย เช่น วันในสัปดาห์ สถานะของระบบ
+
+        โดยถ้าหากไม่ใช้ enum อาจจะต้องใช้วิธีการแบบนี่้
+            const int statusProgress = 1;
+            const int statusDone = 2;
+            const int statusCancel = 3;
+            const int statusRetry = 4;
+
+        เมื่อเราใช้ enum
+            enum {
+                progress,
+                done,
+                cancel,
+                retry
+            }
+
+        โดยค่าใน enum จะเริ่มต้นด้วย 0 แต่สามารถกำหนดค่าได้
+        enum Status {
+                progress = 1,
+                done,
+                cancel,
+                retry
+            }
+
+        และเราสามารถนำไปใช้ได้ในรูปแบบ data type 
+        int main() {
+            Status status;
+            return 0;
+        }
+
+        เราสามารถ assign ค่าอะไรก็ได้ที่อยู่ใน enum ที่กำนหด
+        int main() {
+            Status status;
+
+            status = progress;
+
+            return 0;
+        }
+    
+    Typedef
+        ใช้สำหรับสร้างชื่อใหม่ให้กับชนิดข้อมูล 
+
+        โดยหลายครั้งเรามักจะเจอการตั้งชื่อแบบนี้ int m1, m2, m3, r1, r2, r3
+        ซึ่งตัวเราในอนาคตอาจจะลืมว่า m คืออะไร และ r คืออะไร 
+
+        เราจึงสามารถสร้างชนิดข้อมูลขึั้นมาใหม่ โดยตั้งชื่อให้ตรงกับวัตถุประสงค์ของตัวแปร
+
+        typedef int marks;
+        typedef int rolls;
+
+        int main()
+        {
+            marks m1, m2, m3;
+            rolls r1, r2, r3;
+
+            return 0;
+        }
+
+        เพียงเท่านี้เราก็จะเข้าใจแล้วว่า m, r คืออะไร
