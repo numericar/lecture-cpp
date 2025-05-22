@@ -1,0 +1,19 @@
+Else if ladder
+    เป็นการที่เราสามารถมีเงื่อนไขต่อกันไปได้เรื่อย ๆ
+    เช่น
+        if (condition)
+        {
+
+        }
+        else if (condition)
+        {
+
+        }
+        else if (condition)
+        {
+
+        }
+        else 
+        {
+            
+        }
