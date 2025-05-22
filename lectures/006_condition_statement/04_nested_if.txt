@@ -1,0 +1,25 @@
+Nested If
+    หมายถึง การที่มีเงื่อนไขซ้อนอยู่ในเงื่อนไขอีกทีนึง
+    ตัวอย่าง
+        if (condition) 
+        {
+            if (condition)
+            {
+
+            }
+            else 
+            {
+                
+            }
+        }
+        else 
+        {
+            if (condition)
+            {
+
+            }
+            else 
+            {
+
+            }
+        }
